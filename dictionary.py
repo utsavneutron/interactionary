@@ -26,6 +26,6 @@ word = ""
 while (word != "/end"):
     word = input("Enter a word: ")
     if(word == "/end"):
-        print("Thank you for using the dictionary")
+        print("Thank you for using the dictionary!")
         break
     print(search(word))
